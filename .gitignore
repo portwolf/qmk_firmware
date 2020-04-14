@@ -59,8 +59,7 @@ util/Win_Check_Output.txt
 .tags
 
 # ignore image files
-*.png
-!layout.png
+#!keyboards/dz60/keymaps/portwolf/layout.png
 *.gif
 *.jpg
 
