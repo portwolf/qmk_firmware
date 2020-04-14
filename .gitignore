@@ -60,6 +60,7 @@ util/Win_Check_Output.txt
 
 # ignore image files
 *.png
+!layout.png
 *.gif
 *.jpg
 
