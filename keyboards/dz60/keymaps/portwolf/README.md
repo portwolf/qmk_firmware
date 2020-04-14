@@ -3,7 +3,7 @@
 # Adjusting layout instructions
 
 ## change layout
-https://configurator.qmk.fm
+https://config.qmk.fm
 ## download .json file (keylayout)
 place it in keyboards/dz60/keymaps/portwolf/keylayout.json
 ## compile the firmware w/adjusted layout
