@@ -8,9 +8,9 @@ My DZ60 layout (currently ANSI, will be changed to split spacebar later)
 ```
 https://config.qmk.fm
 ```
-### download .json file (keylayout)
+### download .json file (keymap.json)
 ```
-place it in keyboards/dz60/keymaps/portwolf/keylayout.json
+place it in keyboards/dz60/keymaps/portwolf/keymap.json
 ```
 ### compile the firmware w/adjusted layout
 ```
