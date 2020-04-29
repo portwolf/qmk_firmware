@@ -8,8 +8,10 @@ https://config.qmk.fm
 place it in keyboards/dz60/keymaps/portwolf/keylayout.json
 ## compile the firmware w/adjusted layout
 qmk compile (buildenv. set)
-## put dz60 into bootloader mode 
+## put dz60 into bootloader mode
+'''bash
 space + b
+'''
 check lsusb, should indicate: atmel*****
 ## flash .hex file
 qmk flash
