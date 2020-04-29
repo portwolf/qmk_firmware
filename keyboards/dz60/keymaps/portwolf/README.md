@@ -4,24 +4,23 @@ My DZ60 layout (currently ANSI, will be changed to split spacebar later)
 
 ## Adjusting layout instructions
 
-### change layout
+Change layout to your liking
 ```
 https://config.qmk.fm
 ```
-### download .json file (keymap.json)
+Download .json file (keymap.json) from the configurator website and place it in:
 ```
-place it in keyboards/dz60/keymaps/portwolf/keymap.json
+qmk_firmware/keyboards/dz60/keymaps/portwolf/keymap.json
 ```
-### compile the firmware w/adjusted layout
+Compile the firmware w/adjusted layout
 ```
 qmk compile (buildenv. set)
 ```
-### put dz60 into bootloader mode
+Put dz60 into bootloader mode. Check lsusb, should indicate: atmel*****
 ```
 space + b
 ```
-check lsusb, should indicate: atmel*****
-### flash .hex file
+Flash the compiled .hex file
 ```
 qmk flash
 ```
