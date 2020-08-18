@@ -8,6 +8,11 @@ Change layout to your liking
 ```
 https://config.qmk.fm
 ```
+Update layout picture
+
+```
+on config.qmk.fm click "Print Layout" -> scrot, save as qmk_firmware/keyboards/dz60/keymaps/portwolf/layout.png
+```
 Download .json file (keymap.json) from the configurator website and place it in:
 ```
 qmk_firmware/keyboards/dz60/keymaps/portwolf/keymap.json
@@ -20,11 +25,10 @@ Put dz60 into bootloader mode. Check lsusb, should indicate: atmel*****
 ```
 space + b
 ```
-Flash the compiled .hex file
+Flash the compiled .hex file (keyboard restarts autoMAGICALLY! - ready to use after flash)
 ```
 qmk flash
 ```
-
 ## Update repository
 Update local repo first
 ```
