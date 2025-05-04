@@ -23,6 +23,7 @@ combine all output files to one png:
 magick layout-{0,1,2..n}.png layout.png
 ```
 
+### Build and Flash
 Download .json file (keymap.json) from the configurator website and place it in:
 ```
 qmk_firmware/keyboards/redox/keymaps/portwolf/keymap.json
