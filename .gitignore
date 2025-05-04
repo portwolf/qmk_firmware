@@ -77,9 +77,14 @@ CMakeLists.txt
 .vscode/temp.sql
 tags
 
+<<<<<<< HEAD
 # Ignore image/font files
 *.bmp
 *.wbmp
+=======
+# ignore image files
+#!keyboards/dz60/keymaps/portwolf/layout.png
+>>>>>>> 230b3a2ebfca109d3cc7886ec79dfcfa6847671c
 *.gif
 *.jpg
 *.jpeg
