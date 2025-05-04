@@ -12,6 +12,7 @@ Update layout picture
 
 ```
 on config.qmk.fm click "Print Layout" -> scrot, save as qmk_firmware/keyboards/redox/keymaps/portwolf/layout.pdf
+after download convert w/imagemagick: magick png1.png png2.png..pngN.png -append layoyt.png; rm png*.png;
 ```
 Download .json file (keymap.json) from the configurator website and place it in:
 ```
@@ -51,4 +52,4 @@ git push
 ```
 
 # Layout overview
-![current layout](https://github.com/portwolf/qmk_firmware/blob/portwolf/keyboards/dz60/keymaps/portwolf/layout.pdf)
+![current layout](https://github.com/portwolf/qmk_firmware/blob/portwolf/keyboards/dz60/keymaps/portwolf/layout.png)
