@@ -83,7 +83,6 @@ tags
 *.wbmp
 =======
 # ignore image files
-!layout.png
 >>>>>>> 230b3a2ebfca109d3cc7886ec79dfcfa6847671c
 *.gif
 *.jpg
@@ -99,6 +98,7 @@ tags
 *.mpeg
 *.ttf
 *.otf
+!layout.png
 
 # Things Travis sees
 /.vs
