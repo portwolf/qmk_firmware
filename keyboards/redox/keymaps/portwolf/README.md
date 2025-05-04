@@ -21,6 +21,7 @@ magick -density 300 -quality 100 -background white -alpha remove layout.pdf -res
 combine all output files to one png: 
 ```
 magick layout-{0,1,2..n}.png layout.png
+```
 
 Download .json file (keymap.json) from the configurator website and place it in:
 ```
