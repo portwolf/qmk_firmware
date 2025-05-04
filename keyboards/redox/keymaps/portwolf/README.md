@@ -11,8 +11,9 @@ https://config.qmk.fm
 Update layout picture
 
 ```
-on config.qmk.fm click "Print Layout" -> scrot, save as qmk_firmware/keyboards/redox/keymaps/portwolf/layout.pdf
-after download convert w/imagemagick: magick png1.png png2.png..pngN.png -append layoyt.png; rm png*.png;
+in qutebrowser print to pdf: ':print --pdf /home/portwolf/qmk_firmware/keyboards/redox/keymaps/portwolf/layout.pdf' 
+
+after download convert w/imagemagick: 'magick -density 300 -quality 100 -background white -alpha remove layout.pdf -resize 1024x output.png'
 ```
 Download .json file (keymap.json) from the configurator website and place it in:
 ```
