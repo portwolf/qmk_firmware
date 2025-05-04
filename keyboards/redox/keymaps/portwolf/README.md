@@ -8,17 +8,17 @@ Change layout to your liking
 ```
 https://config.qmk.fm
 ```
-Update layout picture
+### Update layout picture
 
-### in qutebrowser print to pdf using chrome backend (--pdf): 
+in qutebrowser print to pdf using chrome backend (--pdf): 
 ```
 :print --pdf /home/portwolf/qmk_firmware/keyboards/redox/keymaps/portwolf/layout.pdf 
 ```
-### after download convert w/imagemagick: 
+after download convert w/imagemagick: 
 ```
 magick -density 300 -quality 100 -background white -alpha remove layout.pdf -resize 1024x layout.png
 ```
-### combine all output files to one png: 
+combine all output files to one png: 
 ```
 magick layout-{0,1,2..n}.png layout.png
 
