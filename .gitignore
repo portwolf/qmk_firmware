@@ -83,8 +83,7 @@ tags
 *.wbmp
 =======
 # ignore image files
-#!keyboards/dz60/keymaps/portwolf/layout.png
-#!keyboards/redox/keymaps/portwolf/layout.png
+!layout.png
 >>>>>>> 230b3a2ebfca109d3cc7886ec79dfcfa6847671c
 *.gif
 *.jpg
