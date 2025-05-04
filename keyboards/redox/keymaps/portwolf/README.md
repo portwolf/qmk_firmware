@@ -1,4 +1,4 @@
-# pertwelfs dz60 keyboard layout
+# pertwelfs REDOX keyboard layout
 
 My REDOX layout 
 
