@@ -52,4 +52,4 @@ git push
 ```
 
 # Layout overview
-![current layout](https://github.com/portwolf/qmk_firmware/blob/portwolf/keyboards/dz60/keymaps/portwolf/layout.png)
+![current layout](https://github.com/portwolf/qmk_firmware/blob/portwolf/keyboards/redox/keymaps/portwolf/layout.png)
