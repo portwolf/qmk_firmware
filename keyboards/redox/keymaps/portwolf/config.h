@@ -19,24 +19,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // required for correct detection of keyboard
 #define SPLIT_USB_DETECT
+// define timeout for master/slave detection
+#define SPLIT_USB_TIMEOUT 3000
+// define poll frequency for split_usb_detect
+#define SPLIT_USB_TIMEOUT_POLL 10
 
 // Use i2c for comms between halfs
 #define USE_I2C
 // enable detection of connected half and choice of correct keyb layout
 #define EE_HANDS
 
-#undef RGBLIGHT_LED_COUNT
-#define RGBLIGHT_EFFECT_BREATHING
-#define RGBLIGHT_EFFECT_RAINBOW_MOOD
-#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-#define RGBLIGHT_EFFECT_SNAKE
-#define RGBLIGHT_EFFECT_KNIGHT
-#define RGBLIGHT_EFFECT_CHRISTMAS
-#define RGBLIGHT_EFFECT_STATIC_GRADIENT
-#define RGBLIGHT_EFFECT_RGB_TEST
-#define RGBLIGHT_EFFECT_ALTERNATING
-#define RGBLIGHT_EFFECT_TWINKLE
-#define RGBLIGHT_LED_COUNT 14
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_VAL_STEP 8
