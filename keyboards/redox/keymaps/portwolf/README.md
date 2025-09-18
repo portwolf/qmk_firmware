@@ -29,13 +29,13 @@ Compile the firmware w/adjusted layout
 ```
 qmk compile (buildenv. set)
 ```
+Compile .hex file and look for /dev/ttyUSB0 dev (kb) - ready, and waiting to flash
+```
+qmk flash
+```
 Put redox into bootloader mode . 
 ```
 right half 'thumbcluster-upper-right' + left-half 'q' / right-hand 'p'
-```
-Flash the compiled .hex file (keyboard restarts autoMAGICALLY! - ready to use after flash)
-```
-qmk flash
 ```
 ## Update repository
 Update local repo first
