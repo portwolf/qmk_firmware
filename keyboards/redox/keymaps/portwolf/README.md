@@ -58,5 +58,5 @@ Push the changes to the remote repository
 git push
 ```
 
-# Layout overview
+## Layout overview
 ![current layout](https://github.com/portwolf/qmk_firmware/blob/portwolf/keyboards/redox/keymaps/portwolf/layout.png)
