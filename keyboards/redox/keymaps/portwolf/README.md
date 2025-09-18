@@ -14,9 +14,9 @@ in qutebrowser print to pdf using chrome backend (--pdf):
 ```
 :print --pdf /home/portwolf/qmk_firmware/keyboards/redox/keymaps/portwolf/layout.pdf 
 ```
-after download convert all PDF pages to layout.png (quotes required w/zsh) w/imagemagick : 
+after download convert all PDF pages to layout.png (quotes required w/zsh, 0-2: export first 3pgs) w/imagemagick : 
 ```
-magick -density 300 'layout.pdf[0-]' -resize 1024x -append layout.png
+magick -density 300 'layout.pdf[0-2]' -resize 1024x -append layout.png
 ```
 ```
 
