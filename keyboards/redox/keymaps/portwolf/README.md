@@ -14,13 +14,10 @@ in qutebrowser print to pdf using chrome backend (--pdf):
 ```
 :print --pdf /home/portwolf/qmk_firmware/keyboards/redox/keymaps/portwolf/layout.pdf 
 ```
-after download convert w/imagemagick: 
+after download convert all PDF pages to layout.png (quotes required w/zsh) w/imagemagick : 
 ```
-magick -density 300 -quality 100 -background white -alpha remove layout.pdf -resize 1024x layout.png
+magick -density 300 'layout.pdf[0-]' -resize 1024x -append layout.png
 ```
-combine all output files to one png: 
-```
-magick layout-{0,1,2..n}.png -append layout.png
 ```
 
 ### Build and Flash
